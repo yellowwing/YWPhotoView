@@ -10,7 +10,7 @@
 #import "YWPhotoController.h"
 
 @interface AppDelegate ()
- 
+  
 @end
 
 @implementation AppDelegate
