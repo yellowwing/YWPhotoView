@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  YWPhotoView
+//
+//  Created by yellow on 2019/8/1.
+//  Copyright © 2019 YW. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#endif /* PrefixHeader_pch */
+
+
+
+#define Wi [UIScreen mainScreen].bounds.size.width
+#define He [UIScreen mainScreen].bounds.size.height
+
+
+#define Divide_width 10
+
+#define SmallImage_width (Wi-40)/3
+
+#define BigImage_width (SmallImage_width*2+10)
+
+
+#define mainColor [UIColor blackColor]
+
+#define otherMainColor [UIColor colorWithRed:255/255.0 green:213/255.0 blue:32/255.0 alpha:1]
+
+#define grayMainColor [UIColor darkGrayColor]
+
+
+
+#ifdef DEBUG
+# define YWLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define YWLog(...);
+#endif
