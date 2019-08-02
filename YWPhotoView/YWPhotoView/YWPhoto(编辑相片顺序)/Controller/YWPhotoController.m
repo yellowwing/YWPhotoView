@@ -14,10 +14,11 @@
 
 @interface YWPhotoController ()<YWPhotoView2Delegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 
-@property(nonatomic,weak)YWPhotoView2 *photoView;
+@property(nonatomic,weak)YWPhotoView2 *photoView; // 所需要用到的编辑相片view
 
-@property(nonatomic,assign)BOOL isChangePhoto;
-@property(nonatomic,strong)YWEditImageStatus *oldImageStatus;
+@property(nonatomic,assign)BOOL isChangePhoto; // 是否重选相片，不是的话就是添加相片
+
+@property(nonatomic,strong)YWEditImageStatus *oldImageStatus; // 旧相片模型
 
 @end
 

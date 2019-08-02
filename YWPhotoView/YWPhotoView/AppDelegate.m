@@ -15,9 +15,7 @@
 
 @implementation AppDelegate
 
-#warning - 上传不了到github，假如再不行就上传到码云
-#warning - 写简书宣传这项目
-#warning - 弄完这个弄投资快报的栏目排序
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
